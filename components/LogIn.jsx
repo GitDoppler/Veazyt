@@ -11,6 +11,7 @@ export default function LogIn() {
     const router = useRouter();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+
     const [fontsLoaded] = useFonts({
         NotoRegular: require("../assets/fonts/Noto_Sans/static/NotoSans-Regular.ttf"),
         NotoBold: require("../assets/fonts/Noto_Sans/static/NotoSans-Bold.ttf"),
